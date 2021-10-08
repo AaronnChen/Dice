@@ -16,7 +16,7 @@ void setup() {
 void draw()
 {
   fill(0, 160, 160);
-  rect(0, 0, 800, 800);
+  rect(-25, -25, 900, 900);
   for (int i = 0; i <= 10; i++){
     for (int x = 0; x < i; x++) {
       bob = new Dice(x * 75 + 50, i * 55);
